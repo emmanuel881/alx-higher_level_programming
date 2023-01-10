@@ -6,5 +6,5 @@ def uppercase(str):
             upify = (b - 97) + 65
             upper = chr(upify)
             i = upper
-        print(i, end="")
+        print("{}".format(i), end="")
     print("\n")
